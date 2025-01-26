@@ -127,6 +127,18 @@
 
   \resumeSubHeadingListEnd
 
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Program Languages}{: Java, C, C\#, C++, Rust, Python, HTML/CSS, JavaScript, Visual Basic.NET, SQL, Dart, Node.js} \\
+     \textbf{Frameworks}{: Flask, Spring Boot, Flutter, Unity, JUnit, MongoDB, Tor Network} \\
+     \textbf{Developer Tools}{: Git, Google Cloud Platform, VS Code, Visual Studio, PyCharm, IntelliJ, Visual Paradigm, PuTTY, CVAT, Jupyter Note, Vocareum, Coverity, CodeQL, XCode, Android Studio, OverLeaf, Facebook Infer, MySQL, SQLite, Microsoft Office Suite, AWS, JWT} \\
+     \textbf{Languages}{: English, Mandarin}
+    }}
+ \end{itemize}
+
 
 %-----------EXPERIENCE-----------
 \section{Experience}
@@ -155,10 +167,9 @@
       {Vertically Integrated Project Researcher}{August - December 2023}
       {Analysis of Food Processing Crystal Image}{West Lafayette, IN}
       \resumeItemListStart
-        \resumeItem{Improved manufacturing processes and product quality by developing an automated analysis tool for sugar crystal microscope images, focusing on the seed count stage. }
+        \resumeItem{Improved manufacturing processes and product quality by developing an automated analysis tool for sugar crystal microscope images with TinyML teammates and Harvard researchers. }
         \resumeItem{Used \textbf{Python} to implement a machine learning model based on \textbf{Hough Transform} for bubble detection and removal, significantly improving image analysis accuracy and efficiency. }
-        \resumeItem{Optimized image preprocessing techniques, including noise removal, binarization, and adaptive thresholding, and integrated the \textbf{Stardist model} for precise crystal separation.  }
-        \resumeItem{Collaborated with TinyML teammates and Harvard researchers, incorporating mentor feedback to refine algorithms and achieve notable advancements in automated crystal analysis. }
+        \resumeItem{Optimized image pre-processing techniques, including noise removal, binarization, and adaptive thresholding, and integrated the \textbf{Stardist model} for precise crystal separation.  }
     \resumeItemListEnd
 
   \resumeSubHeadingListEnd
@@ -168,50 +179,33 @@
 \section{Projects}
     \resumeSubHeadingListStart
         \resumeProjectHeading
-          {\textbf{Bareturn0;} $|$ \emph{Unity, AWS, MYSQL, MongoDB, Node.js, Git}} {January 2025 - Present}
+          {\textbf{Bareturn0;} $|$ \emph{Unity, AWS, MySQL, MongoDB, Node.js, C\#, Git}} {January 2025 - Present}
           \resumeItemListStart
-            \resumeItem{Designed and developed a full-stack educational card game with card game mechanics that integrates programming concepts and basic math into gameplay, enhancing learning through interactive storytelling and gamification.}
-            \resumeItem{Enhanced user anonymity by incorporating the Tor network, enabling access through a .onion domain.}
-            \resumeItem{Engineered a secure backend with Node.js and MongoDB, featuring account management, data encryption, and personalized progress tracking.}
-            \resumeItem{Collaborated with a team of 4 to conduct iterative testing and debugging, ensuring smooth gameplay, performance benchmarks, and accessibility for beginners and educators.}
+            \resumeItem{Developed a full-stack educational card game with card game mechanics that integrates programming concepts and basic math into gameplay, enhancing learning through interactive storytelling and gamification with a team of 4.}
+            \resumeItem{Engineered a secure backend with Node.js and MongoDB, and develop the frontend with C\# and Unity. Used MYSQL as database, AWS as cloud platform.}
           \resumeItemListEnd
       \resumeProjectHeading
           {\textbf{FooMyFood} $|$ \emph{Spring Boot, Flutter, Figma, Java, Dart, Git}}{Augest - December 2024}
           \resumeItemListStart
-            \resumeItem{Designed a mobile app to help individuals track food inventory, receive expiration reminders, and get personalized recipe suggestions, reducing food waste and simplifying meal planning.}
-            \resumeItem{Developed a full-stack application using Dart and Flutter for the frontend, Spring Boot and Java for the backend, and MySQL for database management.. Created an intuitive user interface and user flow with Figma, enhancing accessibility and engagement.}
-            \resumeItem{Collaborated with a team of 4, ensuring seamless integration between frontend, backend, and database, while conducting extensive testing to deliver a reliable product. }
+            \resumeItem{Designed a mobile app to help individuals track food inventory, receive expiration reminders, and get personalized recipe suggestions, reducing food waste and simplifying meal planning with a team of 4.}
+            \resumeItem{Developed a full-stack application using Dart and Flutter for the frontend, Spring Boot and Java for the backend, and MySQL for database management. Created an intuitive user interface and user flow with Figma, enhancing accessibility and engagement.}
           \resumeItemListEnd
       \resumeProjectHeading
           {\textbf{FTP Server Testing Framework} $|$ \emph{FTP Server, Python, Valgrind, Git}}{June - August 2024}
           \resumeItemListStart
             \resumeItem{Designed and implemented a comprehensive testing framework to evaluate buggy versions of the bftpd FTP server using Python, focusing on black-box testing and memory bug detection with Valgrind. }
-            \resumeItem{Collaborated with a team of 3 to streamline workflow and developed automated test cases to identify and document bugs, validating server responses and ensuring compliance with FTP protocols. }
+            \resumeItem{Collaborated with a team of 3 to streamline workflow and developed automated test cases to identify and document bugs. }
           \resumeItemListEnd
           
         \resumeProjectHeading
           {\textbf{Publish-Subscribe Blog} $|$ \emph{Bento, Tor Network, SQLite, Flask, JWT, Python}} {Augest - December 2024}
           \resumeItemListStart
-            \resumeItem{Developed a Python-based secure publish-subscribe blog application using the Bento framework, integrated with the Flask web framework and SQLite database..}
+            \resumeItem{Developed a Python-based secure publish-subscribe blog application using the Bento framework, integrated with the Flask web framework and SQLite database.}
             \resumeItem{Enhanced user anonymity by incorporating the Tor network, enabling access through a .onion domain.}
             \resumeItem{Implemented key functionalities including user registration, authentication with JSON Web Tokens (JWT), message publishing, deletion, and recovery, utilizing Bento's API for secure message handling.}
           \resumeItemListEnd
           
     \resumeSubHeadingListEnd
-
-
-
-%
-%-----------PROGRAMMING SKILLS-----------
-\section{Technical Skills}
- \begin{itemize}[leftmargin=0.15in, label={}]
-    \small{\item{
-     \textbf{Program Languages}{: Java, C, C++, Rust, Python, HTML/CSS, JavaScript, Visual Basic.NET, SQL, Dart} \\
-     \textbf{Frameworks}{: Flask, Spring Boot, Flutter, Unity, JUnit, MongoDB} \\
-     \textbf{Developer Tools}{: Git, Google Cloud Platform, VS Code, Visual Studio, PyCharm, IntelliJ, Visual Paradigm, PuTTY, CVAT, Jupyter Note, Vocareum, Coverity, CodeQL, XCode, Android Studio, OverLeaf, Facebook Infer, MYSQL} \\
-     \textbf{Languages}{: English, Mandarin}
-    }}
- \end{itemize}
 
 
 %-------------------------------------------
