@@ -1,0 +1,218 @@
+%-------------------------
+% Resume in Latex
+% Author : Xinyi Guan
+% Based off of: https://github.com/Xinyidududu
+%------------------------
+
+\documentclass[letterpaper,8pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Xinyi Guan} \\ \vspace{1pt}
+    \small 312-810-3169 $|$ \underline{guanxinyi0916@gmail.com} $|$ 
+    \href{www.linkedin.com/in/xinyi-guan-42016928b}{\underline{linkedin.com/in/xinyi-guan-42016928b }} $|$
+    \href{https://github.com/Xinyidududu}{\underline{github.com/Xinyidududu}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+  {Purdue University}{West Lafayette, IN}
+  {Bachelor of Science in Computer Science, Concentrate on Software Engineering | \textbf{GPA:} 3.81/4.0}{Expected: May 2026}
+
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {The Data Mine Program Researcher}{January - May 2024}
+      {Assessing Reactive Groups and Reactivity Alerts in the CAMEO Chemicals Database}{West Lafayette, IN}
+      \resumeItemListStart
+        \resumeItem{Conducted data mining and analysis on the CAMEO Chemicals Database, in collaboration with CAS, to explore the relationship between reactive chemical groups and associated reactivity alerts. }
+        \resumeItem{Implemented \textbf{Python-based} data analysis techniques, including \textbf{K-means clustering }and\textbf{ the elbow method}, to identify patterns and correlations in the dataset. }
+        \resumeItem{Utilized \textbf{cross-correlation heatmaps} and \textbf{PCA plots} to present findings and aid in the understanding of chemical reactivity patterns. }
+      \resumeItemListEnd
+      
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+    \resumeSubheading
+      {Vertically Integrated Project Researcher}{August - December 2023}
+      {Analysis of Food Processing Crystal Image}{West Lafayette, IN}
+      \resumeItemListStart
+        \resumeItem{Improved manufacturing processes and product quality by developing an automated analysis tool for sugar crystal microscope images, focusing on the seed count stage. }
+        \resumeItem{Used \textbf{Python} to implement a machine learning model based on \textbf{Hough Transform} for bubble detection and removal, significantly improving image analysis accuracy and efficiency. }
+        \resumeItem{Optimized image preprocessing techniques, including noise removal, binarization, and adaptive thresholding, and integrated the \textbf{Stardist model} for precise crystal separation.  }
+        \resumeItem{Collaborated with TinyML teammates and Harvard researchers, incorporating mentor feedback to refine algorithms and achieve notable advancements in automated crystal analysis. }
+    \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+        \resumeProjectHeading
+          {\textbf{Bareturn0;} $|$ \emph{Unity, AWS, MYSQL, MongoDB, Node.js, Git}} {January 2025 - Present}
+          \resumeItemListStart
+            \resumeItem{Designed and developed a full-stack educational card game with card game mechanics that integrates programming concepts and basic math into gameplay, enhancing learning through interactive storytelling and gamification.}
+            \resumeItem{Enhanced user anonymity by incorporating the Tor network, enabling access through a .onion domain.}
+            \resumeItem{Engineered a secure backend with Node.js and MongoDB, featuring account management, data encryption, and personalized progress tracking.}
+            \resumeItem{Collaborated with a team of 4 to conduct iterative testing and debugging, ensuring smooth gameplay, performance benchmarks, and accessibility for beginners and educators.}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{FooMyFood} $|$ \emph{Spring Boot, Flutter, Figma, Java, Dart, Git}}{Augest - December 2024}
+          \resumeItemListStart
+            \resumeItem{Designed a mobile app to help individuals track food inventory, receive expiration reminders, and get personalized recipe suggestions, reducing food waste and simplifying meal planning.}
+            \resumeItem{Developed a full-stack application using Dart and Flutter for the frontend, Spring Boot and Java for the backend, and MySQL for database management.. Created an intuitive user interface and user flow with Figma, enhancing accessibility and engagement.}
+            \resumeItem{Collaborated with a team of 4, ensuring seamless integration between frontend, backend, and database, while conducting extensive testing to deliver a reliable product. }
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{FTP Server Testing Framework} $|$ \emph{FTP Server, Python, Valgrind, Git}}{June - August 2024}
+          \resumeItemListStart
+            \resumeItem{Designed and implemented a comprehensive testing framework to evaluate buggy versions of the bftpd FTP server using Python, focusing on black-box testing and memory bug detection with Valgrind. }
+            \resumeItem{Collaborated with a team of 3 to streamline workflow and developed automated test cases to identify and document bugs, validating server responses and ensuring compliance with FTP protocols. }
+          \resumeItemListEnd
+          
+        \resumeProjectHeading
+          {\textbf{Publish-Subscribe Blog} $|$ \emph{Bento, Tor Network, SQLite, Flask, JWT, Python}} {Augest - December 2024}
+          \resumeItemListStart
+            \resumeItem{Developed a Python-based secure publish-subscribe blog application using the Bento framework, integrated with the Flask web framework and SQLite database..}
+            \resumeItem{Enhanced user anonymity by incorporating the Tor network, enabling access through a .onion domain.}
+            \resumeItem{Implemented key functionalities including user registration, authentication with JSON Web Tokens (JWT), message publishing, deletion, and recovery, utilizing Bento's API for secure message handling.}
+          \resumeItemListEnd
+          
+    \resumeSubHeadingListEnd
+
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Program Languages}{: Java, C, C++, Rust, Python, HTML/CSS, JavaScript, Visual Basic.NET, SQL, Dart} \\
+     \textbf{Frameworks}{: Flask, Spring Boot, Flutter, Unity, JUnit, MongoDB} \\
+     \textbf{Developer Tools}{: Git, Google Cloud Platform, VS Code, Visual Studio, PyCharm, IntelliJ, Visual Paradigm, PuTTY, CVAT, Jupyter Note, Vocareum, Coverity, CodeQL, XCode, Android Studio, OverLeaf, Facebook Infer, MYSQL} \\
+     \textbf{Languages}{: English, Mandarin}
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+\end{document}
