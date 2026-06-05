@@ -125,7 +125,10 @@
   \resumeSubHeadingListStart
     \resumeSubheading
   {Purdue University}{West Lafayette, IN}
-  {Bachelor of Science in Computer Science, Concentrate on Software Engineering | \textbf{GPA:} 3.80/4.0}{Expected: May 2026}
+  {Bachelor of Science in Computer Science, Concentrate on Software Engineering | \textbf{GPA:} 3.75/4.0}{January 2022 - May 2026}
+    \resumeSubheading
+  {Columbia University}{New York, NY}
+  {Master of Science in Artificial Intelligence, Concentrate on AI Infrastructure}{Expected: December 2027}
 
   \resumeSubHeadingListEnd
 
@@ -135,7 +138,7 @@
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
      \textbf{Program Languages}{: Java, C, C\#, C++, Rust, R, Python, HTML/CSS, JavaScript, Visual Basic.NET, SQL, Dart, Swift} \\
-     \textbf{Developer Tools and Frameworks}{: Git, Google Cloud Platform, VS Code, Visual Studio, PyCharm, IntelliJ, Visual Paradigm, PuTTY, CVAT, Jupyter Note, Vocareum, Coverity, CodeQL, XCode, Android Studio, OverLeaf, Facebook Infer, MySQL, SQLite, NoSQL, Microsoft Office Suite, AWS, JWT, Flask, Spring Boot, Flutter, Unity, JUnit, Tor Network, Node.js, MongoDB, Postgresql} \\
+     \textbf{Developer Tools and Frameworks}{: Git, Google Cloud Platform, PuTTY, CVAT, Jupyter Note, Vocareum, Coverity, CodeQL, XCode, Android Studio, Facebook Infer, MySQL, SQLite, NoSQL, Microsoft Office Suite, AWS, JWT, Flask, Spring Boot, Flutter, Unity, JUnit, Tor Network, Node.js, MongoDB, Postgresql, Docker} \\
      \textbf{Languages}{: English, Mandarin}
     }}
  \end{itemize}
@@ -146,11 +149,11 @@
 
     \resumeSubheading
       {ARC Rentals LLC}{May -- August 2025}
-      {Frontend Software Engineer Intern}{Remote}
+      {Software Engineer Intern}{Remote}
       \resumeItemListStart
         \resumeItem{Collaborated with a cross-functional team to design and develop a rental application for Veygo, a car rental application.}
         \resumeItem{Built key front-end features using \textbf{Swift} in \textbf{Xcode}, integrating seamlessly with a \textbf{Rust}-based backend and \textbf{PostgreSQL} database.}
-        \resumeItem{Utilized \textbf{Figma} for UI/UX prototyping and \textbf{Git} for version control and collaborative development.}
+        \resumeItem{Implemented an on-device AI feature leveraging \textbf{Apple’s Foundation Model} to generate structured city insights dynamically rendered in SwiftUI.}
       \resumeItemListEnd
  
 
